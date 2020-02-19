@@ -41,11 +41,11 @@ class EditProduct extends React.Component {
             return <Redirect to="/"/>
         }
 
+        /*Price Tier, Price Range and isEditable will always 
+        **have a value selected so no need to check*/
         const isValid = this.state.name && 
                         this.state.weight &&
                         this.state.productUrl
-
-        console.log(isValid)
 
         return <div className="editProduct">
             <form >
