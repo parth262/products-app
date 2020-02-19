@@ -1,0 +1,2 @@
+export const INSERT_PRODUCTS = "INSERT_PRODUCTS";
+export const UPDATE_PRODUCT = "UPDATE_PRODUCT";
